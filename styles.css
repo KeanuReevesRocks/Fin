@@ -44,3 +44,11 @@ nav {
     max-width: 40%;
     max-height: 40%;
   }
+
+  tr {
+    font-size: 1.438rem;
+  }
+
+  table {
+    background-color:#E0CBA8;
+  }
