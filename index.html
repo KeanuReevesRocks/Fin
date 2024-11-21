@@ -19,6 +19,32 @@
     <img id="logo" alt="Keanu looks ahead" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Reuni%C3%A3o_com_o_ator_norte-americano_Keanu_Reeves_%2840564290773%29_%28cropped%29.jpg/800px-Reuni%C3%A3o_com_o_ator_norte-americano_Keanu_Reeves_%2840564290773%29_%28cropped%29.jpg?20190420021851">
     <button type="submit">I like Keanu Reeves! button</button>
  
+    <!--
+    
+<button id="ASong" onClick="playPause()">
+  <audio
+    src="file_example_MP3_700KB.mp3"
+    autoplay
+    loop
+  ></audio>
+  Song
+</button>
+
+<script>
+  var aud = document.getElementById("ASong").children[0];
+  var isPlaying = false;
+  aud.pause();
+
+  function playPause() {
+    if (isPlaying) {
+      aud.pause();
+    } else {
+      aud.play();
+    }
+    isPlaying = !isPlaying;
+  }
+</script>
+    -->
 
 </body>
 </html>
