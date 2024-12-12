@@ -68,3 +68,6 @@ nav {
     width:fit-content;
     height:fit-content;
   }
+  div.a {
+    text-align: right;
+  }
