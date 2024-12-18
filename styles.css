@@ -48,26 +48,28 @@ nav {
     background-color:#E0CBA8;
   }
 
-  .guitar {
+  #guitar {
    object-fit: cover;
    padding: 0;
    margin: 0;
    box-sizing: border-box;
   }
 
-  .saint {
+  #saint {
     max-width: 40%;
     max-height: 40%;
   }
 
-  .filmrank {
-    
-  }
-
-  .Headshot {
+  #Headshot {
     width:fit-content;
     height:fit-content;
   }
   div.a {
     text-align: right;
+  }
+
+  @media only screen and (max-width: 600px{
+    #filmrank {
+      width: 100%;
+    }
   }
